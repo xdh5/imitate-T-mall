@@ -1,0 +1,52 @@
+@media (min-width:1200px){.myResponsive{padding: 0 10%;}}
+@media (min-width:992px) and (max-width:1200px){.myResponsive{padding: 0 8%;}}
+@media (min-width:768px) and (max-width:992px){.myResponsive{padding: 0 6%;}}
+@media (min-width:576px) and (max-width:768px){.myResponsive{padding: 0 4%;}}
+@media (max-width:576px){.myResponsive{padding: 0 2%;}}
+html{
+    min-width: 1024px;
+}
+#footer-list{
+	display:flex;
+}
+.footer-list{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12px;
+	flex: 1;
+	padding-left:50px;
+}
+.footer-list a{
+	padding-top: 3px;
+	color:#999;
+}
+.footer-list a:hover{
+	text-decoration: none;
+	color: #C40000;
+}
+.footer-list dt{
+	color: #646464;
+	font-weight: bold;
+	font-size: 16px;
+}
+.footer-list dd>a{
+	display: block;
+}
+
+#footer-other{
+	background-color: black;
+	padding: 10px 0;
+}
+.footer-white-link{
+	color: white;
+	text-align: left !important;
+	font-size: 12px;
+}
+.footer-white-link a{
+	color: white;
+	font-size: 12px;
+}
+.footer-license{
+	color: #686868;
+	font-size: 12px;
+}

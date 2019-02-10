@@ -1,0 +1,106 @@
+@media (min-width:1200px){.myResponsive{padding: 0 10%;}}
+@media (min-width:992px) and (max-width:1200px){.myResponsive{padding: 0 8%;}}
+@media (min-width:768px) and (max-width:992px){.myResponsive{padding: 0 6%;}}
+@media (min-width:576px) and (max-width:768px){.myResponsive{padding: 0 4%;}}
+@media (max-width:576px){.myResponsive{padding: 0 2%;}}
+html{
+    min-width: 1024px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.myBlock{
+	display: block;
+}
+#category-logo{
+	margin: 30px 0;
+}
+#category-sort{
+	background-color: #FAF9F9;
+	padding: 5px 20px;
+}
+#category-sort button{
+	background-color: white;
+	font-size: 12px;
+	color: #806F66;
+	border:solid 0.5px #a9a9a9;
+	outline:none;
+	height: 25px;
+	margin-right: -0.5px;
+	vertical-align: top;
+}
+#category-sort input{
+	width: 50px;
+	font-size:12px;
+	outline:none;
+	vertical-align: top;
+	height: 25px;
+}
+.category-product{
+	border: solid 0.5px #a9a9a9;
+	padding: 0px !important;
+	margin: 10px 0;
+}
+.category-productPrice{
+	font-size: 20px;
+	font-weight: bold;
+	color: #CC0000;
+}
+.category-productIntroduction{
+	font-size: 12px;
+	color:#333333;
+}
+.category-productShop{
+	font-size: 12px;
+	color: #999999;
+	margin-top: 5px;
+}
+.category-information{
+	padding: 5px;
+}
+.category-statistics{
+	display: flex;
+}
+.category-productDeal{
+	display: inline-block;
+	font-size: 12px;
+	color: #999999;
+	border-right: solid 0.5px #a9a9a9;
+	border-top: solid 0.5px #a9a9a9;
+	height: 30px;
+	margin-bottom: -0.5px;
+	padding: 3px 5px;
+	flex: 4;
+}
+.orange{
+	color: #B57C5B;
+	font-weight: bold;
+}
+.category-productReview{
+	display: inline-block;
+	font-size: 12px;
+	color: #999999;
+	border-right: solid 0.5px #a9a9a9;
+	border-top: solid 0.5px #a9a9a9;
+	height: 30px;
+	margin-bottom: -0.5px;
+	padding: 3px 5px;
+	flex: 4;
+}
+.blue{
+	color: #3388BB;
+	font-weight: bold;
+}
+.icon-wangwang{
+	display: inline-block;
+	padding: 3px 5px;
+	height: 30px;
+	border-top: solid 0.5px #a9a9a9;
+	margin-bottom: -0.5px;
+	vertical-align: top;
+	flex: 2;
+}

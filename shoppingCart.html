@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>仿天猫官网-购物车</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="https://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/twitter-bootstrap/4.2.1/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://cdn.staticfile.org/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/font_1032085_yt0of5cdhfi.css">
+	<link rel="stylesheet" type="text/css" href="css\shoppingCart.css">
+	<script type="text/javascript" src="javascript\shoppingCart.js"></script></title>
+</head>
+<body>
+	<header></header>
+	<div  class="myResponsive">
+		<table class="table">
+			<tr>
+				<th></th>
+				<th>图片</th>
+				<th>商品信息</th>
+				<th>单价</th>
+				<th>数量</th>
+				<th>金额</th>
+				<th>操作</th>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="ifChecked" class="eachChecked"></td>
+				<td class="fixed-width"><img src="img\shoppingCart\3752.jpg"></td>
+				<td>洁霸BF522多功能洗地机刷地机酒店家用地毯清洗机 擦地机抛光机</td>
+				<td class="myPrice fixed-width"><span class="oldPrice">￥1900.0</span><span class="newPrice redFont">￥1235.0</span></td>
+				<td class="fixed-width"><span class="iconfont icon-jian sub"></span><input class="checkNumber" type="number" name="count" value=1><span class="iconfont icon-jia plus"></span></td>
+				<td class="fixed-width redFont finalPrice">￥1235.0</td>
+				<td class="fixed-width myDelete">删除</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="ifChecked" class="eachChecked"></td>
+				<td class="fixed-width"><img src="img\shoppingCart\3182.jpg"></td>
+				<td>两轮平衡车双轮儿童思维漂移电动扭扭车智能滑板车成人体感代步车</td>
+				<td class="myPrice fixed-width"><span class="oldPrice">￥889</span><span class="newPrice redFont">￥755.65</span></td>
+				<td class="fixed-width"><span class="iconfont icon-jian sub"></span><input class="checkNumber" type="number" name="count" value=1><span class="iconfont icon-jia plus"></span></td>
+				<td class="fixed-width redFont finalPrice">￥755.65</td>
+				<td class="fixed-width myDelete">删除</td>
+			</tr>
+		</table>
+		<div class="shoppingCart-count">
+			<input type="checkbox" name="ifChecked" id="allCheck"> 全选
+			<div class="float-right">
+				<span>已选商品<strong id="totalNumber" class="redFont">2</strong>件</span>
+				<span> 合计 (不含运费): <strong id="totalPrice" class="redFont">￥1990.65</strong></span>
+				<a href="pay_1.html"><button>结算</button></a>
+			</div>
+		</div>
+	</div>
+	<footer></footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+@media (min-width:1200px){.myResponsive{padding: 0 10%;}}
+@media (min-width:992px) and (max-width:1200px){.myResponsive{padding: 0 8%;}}
+@media (min-width:768px) and (max-width:992px){.myResponsive{padding: 0 6%;}}
+@media (min-width:576px) and (max-width:768px){.myResponsive{padding: 0 4%;}}
+@media (max-width:576px){.myResponsive{padding: 0 2%;}}
+html{
+    min-width: 1024px;
+    font-size: 12px;
+}
+.img-responsive{
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+}
+.bold-font{
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.red-font{
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+.product-info{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+.product-info td{
+    padding: 5px;
+}
+.product-review{
+    margin: 20px 0;
+    border: 1px solid #D1CCC8;
+    padding: 10px;
+    background-color: #EFEFEF;;
+}
+.product-review textarea{
+    width: 300px;
+}

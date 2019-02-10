@@ -1,0 +1,34 @@
+@media (min-width:1200px){.myResponsive{padding: 0 10%;}}
+@media (min-width:992px) and (max-width:1200px){.myResponsive{padding: 0 8%;}}
+@media (min-width:768px) and (max-width:992px){.myResponsive{padding: 0 6%;}}
+@media (min-width:576px) and (max-width:768px){.myResponsive{padding: 0 4%;}}
+@media (max-width:576px){.myResponsive{padding: 0 2%;}}
+html{
+    min-width: 1024px;
+    font-size: 12px;
+}
+.img-responsive{
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+}
+.myPay{
+	text-align: center;
+}
+.pay-price{
+    color: #FF6600;
+    font-weight: bold;
+    font-size: 20px;
+}
+.myPay button{
+	display: block;
+	background-color: #00AAEE;
+    border: none;
+    text-align: center;
+    line-height: 31px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    width: 107px;
+    margin: 20px auto;
+}

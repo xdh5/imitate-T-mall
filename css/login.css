@@ -1,0 +1,66 @@
+@media (min-width:1200px){.myResponsive{padding: 0 10%;}}
+@media (min-width:992px) and (max-width:1200px){.myResponsive{padding: 0 8%;}}
+@media (min-width:768px) and (max-width:992px){.myResponsive{padding: 0 6%;}}
+@media (min-width:576px) and (max-width:768px){.myResponsive{padding: 0 4%;}}
+@media (max-width:576px){.myResponsive{padding: 0 2%;}}
+html{
+    min-width: 1024px;
+    font-size: 12px;
+}
+.img-responsive{
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+}
+.login{
+    text-align:right;
+    margin: 0px auto;
+    height:100%;
+}
+.mylogin{
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 350px;
+    height: 400px;
+    border: 0.1px solid #CBCBCB;
+    text-align: left;
+}
+.bold-font{
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+.mylogin div{
+    margin: 10px 0;
+}
+.mylogin .iconfont{
+    display: inline-block;
+    background-color: #CBCBCB;
+    padding: 5px;
+    height: 30px;
+}
+.mylogin input{
+    display: inline-block;
+    vertical-align: top;
+    height: 30px;
+    width: 200px;
+    border: 1px solid #CBCBCB;
+    padding: 10px;
+}
+.red{
+    color: red;
+    margin: 20px 0;
+}
+.mylogin button{
+    display: block;
+    color: white;
+    border: none;
+    background-color: #C40000;
+    font-size: 14px;
+    font-weight: bold;
+    width: 80%;
+    height: 30px;
+    margin: 50px auto;
+}

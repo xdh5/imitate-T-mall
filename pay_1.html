@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>仿天猫官网-确认支付信息</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="https://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/twitter-bootstrap/4.2.1/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://cdn.staticfile.org/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/font_1032085_mfedp75l2b.css">
+	<link rel="stylesheet" type="text/css" href="css\pay_1.css">
+	<script type="text/javascript" src="javascript\pay_1.js"></script>
+</head>
+<body>
+	<header></header>
+	<div class="bold-font myResponsive">输入收货地址</div>
+	<div class="myResponsive">
+		<table class="balance-address">
+			<tr>
+				<td>详细地址</td>
+				<td class="red-star">*</td>
+				<td><textarea  placeholder="建议您如实填写详细收货地址，例如街道名称，门牌号码，楼层和房间号等信息"></textarea></td>
+			</tr>
+			<tr>
+				<td>邮政编码</td>
+				<td class="red-star"> </td>
+				<td><input type="text" name="postalcode" placeholder="如果您不清楚邮递区号，请填写000000"></td>
+			</tr>
+			<tr>
+				<td>收货人姓名</td>
+				<td class="red-star">*</td>
+				<td><input type="text" name="name" placeholder="长度不超过25个字符"></td>
+			</tr>
+			<tr>
+				<td>手机号码</td>
+				<td class="red-star">*</td>
+				<td><input type="tel" name="tel" placeholder="请输入11位手机号码"></td>
+			</tr>
+		</table>
+	</div>
+	<div class="bold-font myResponsive">确认订单信息</div>
+	<div class="myResponsive">
+		<table class="balance-order table">
+			<tr>
+				<th></th>
+				<th> 店铺：天猫店铺 <span class="iconfont icon-wangwang"></span></th>
+				<th>单价</th>
+				<th>数量</th>
+				<th>小计</th>
+				<th>派送方式</th>
+			</tr>
+			<tr>
+				<td><img src="img\pay\3752.jpg"></td>
+				<td><a href="#nowhere">洁霸BF522多功能洗地机刷地机酒店家用地毯清洗机 擦地机抛光机</a></td>
+				<td>￥1,235.00</td>
+				<td>4</th>
+				<td>￥4,940.00</td>
+				<td rowspan="3">
+					<input type="radio" value="普通配送" checked="true">普通配送
+					<select>
+						<option value="快递 免邮费">快递 免邮费</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><img src="img\pay\3182.jpg"></td>
+				<td><a href="#nowhere">两轮平衡车双轮儿童思维漂移电动扭扭车智能滑板车成人体感代步车</a></td>
+				<td>￥755.65</td>
+				<td>1</th>
+				<td>￥755.65</td>
+			</tr>
+			<tr>
+				<td><img src="img\pay\1917.jpg"></td>
+				<td><a href="#nowhere">依然美佳欧式布艺沙发组合可拆洗新款实木雕花大户型奢华别墅家具</a></td>
+				<td>￥7,008.40</td>
+				<td>1</th>
+				<td>￥7,008.40</td>
+			</tr>
+		</table>
+	</div>
+	<div class="myResponsive">
+		<div class="words">
+			<span>给卖家留言:</span>
+			<input type="text">
+			<span class="float-right">店铺合计(含运费): ￥12,704.05</span>
+		</div>
+	</div>
+	<div class="submit-order myResponsive">
+		<a href="pay_1.5.html"><button>提交订单</button></a>
+	</div>
+	<div></div>
+	<footer></footer>
+</body>
+</html>

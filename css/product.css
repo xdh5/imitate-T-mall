@@ -1,0 +1,180 @@
+@media (min-width:1200px){.myResponsive{padding: 0 10%;}}
+@media (min-width:992px) and (max-width:1200px){.myResponsive{padding: 0 8%;}}
+@media (min-width:768px) and (max-width:992px){.myResponsive{padding: 0 6%;}}
+@media (min-width:576px) and (max-width:768px){.myResponsive{padding: 0 4%;}}
+@media (max-width:576px){.myResponsive{padding: 0 2%;}}
+html{
+    min-width: 1024px;
+}
+.img-responsive{
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+}
+#product-Img{
+	display: inline-block;
+}
+#product{
+	display: flex;
+	margin: 50px 0;
+}
+#bigImg{
+	padding: 10px;
+	border:solid 0.5px #a9a9a9;
+	border-radius: 10px;
+	flex:1;
+}
+#my-Thumbnail{
+	display: flex;
+}
+.my-Thumbnail{
+	width: 70px;
+	height: 70px;
+	flex:1;
+	margin: 5px;
+}
+#product-Info{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12px;
+	color: #666666;
+	margin-left: 50px;
+	flex:1;
+}
+#product-Title{
+	color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+#product-SubTitle{
+	color: #DD2727;
+    font-size: 12px;
+}
+#product-Price{
+	font: 12px;
+	color: productPrice
+}
+#juhuasuan{
+	background-color: #2DA77A;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+}
+#juhuasuan-Bold{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial;
+}
+#juhuasuan-Time{
+	color: #FFC057;
+    font-weight: bold;
+}
+#product-Price-Info{
+	background-color: #f6f5f5;
+}
+#product-Price-Info div{
+	padding: 5px;
+}
+#product-Price-Info div:nth-of-type(2){
+	text-decoration: line-through;
+}
+#product-Price-Info div:nth-of-type(3) span:nth-of-type(2){
+	color: #c40000;
+    font-size: 30px;
+    font-weight: bold;
+}
+#product-Number{
+	border-top: dotted 0.5px #C9C9C9;
+	border-bottom: dotted 0.5px #C9C9C9;
+	margin: 5px 0;
+	padding: 5px 0;
+	display: flex;
+	text-align: center;
+}
+#product-Number div{
+	flex: 1
+}
+#product-Number span{
+	color: #C40000;
+	font-weight: bold;
+}
+#product-Number-Setting{
+	margin: 5px 0;
+	padding: 5px 0;
+}
+#product-myNumber{
+	display: inline-block;
+	width: 50px;
+	height: 40px;
+	outline: none;
+}
+input[type=number] {  
+    -moz-appearance:textfield;  
+}  
+input[type=number]::-webkit-inner-spin-button,  
+input[type=number]::-webkit-outer-spin-button {  
+    -webkit-appearance: none;  
+    margin: 0;  
+} 
+#product-Number-Setting>div{
+	display: inline-block;
+	vertical-align: top;
+}
+#product-Number-Setting>div>span{
+	display: block;
+	height: 16px;
+	width: 16px;
+}
+#product-service{
+	margin: 5px 0;
+	padding: 5px 0;
+}
+#product-service a{
+	color: #666666;
+}
+#product-service a:hover{
+    color: #C40000;
+    text-decoration: none;
+}
+.product-buyButton{
+    border: none;
+    background-color: #C40000;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: white;
+    width: 100px;
+    margin-right: 10px;
+    outline: none;
+}
+.nav-tabs a{
+	color: #495057;
+}
+.tab-content{
+	font-size: 12px;
+}
+.myReview-content{
+	border-bottom: 1px solid #E3E3E3;
+	margin-top: 20px;
+}
+.myReview-content span{
+	margin: 20px;
+	display: block;
+}
+#product-tab-info{
+	margin: 20px;
+}
+#product-tab-info th{
+    color: #999999;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#product-tab-info td{
+	width: 250px;
+	height: 40px;
+	padding: 15px 0;
+}
+#product-tab-info img{
+	width: 100%;
+}
